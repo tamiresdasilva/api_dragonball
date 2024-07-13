@@ -19,7 +19,7 @@ class PlanetsAdapter: RecyclerView.Adapter<PlanetsAdapter.ViewHolder>() {
         }
     }
 
-    fun setUpCharacters(planets: List<Planets>) {
+    fun setUpPlanets(planets: List<Planets>) {
         this.listPlanets = planets
         notifyDataSetChanged()
     }

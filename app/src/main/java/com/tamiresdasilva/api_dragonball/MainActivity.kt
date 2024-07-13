@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 is Results.Success -> {
                     binding.progressBar.visibility = View.GONE
-                    adapter.setUpCharacters(result.data)
+                    adapter.setUpPlanets(result.data)
                 }
                 is Results.Error -> {
                     binding.progressBar.visibility = View.GONE

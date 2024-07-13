@@ -24,7 +24,6 @@ object NetworkModule {
     }
     @Provides
     @Singleton
-    //providesCharactersService
     fun providesPlanetsService(retrofit: Retrofit): PlanetsApi {
         return retrofit.create(PlanetsApi::class.java)
     }
